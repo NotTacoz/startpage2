@@ -1,6 +1,7 @@
 {
     "manifest_version": 3,
 
+    "short_name": "new tab",
     "name": "new tab",
     "description": "new tab page",
     "version": "2.0.0",
@@ -9,5 +10,11 @@
         "newtab": "index.html"
     },
     
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    
     "permissions": ["bookmarks", "scripting"]
 }
+
