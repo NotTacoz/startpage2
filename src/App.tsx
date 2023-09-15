@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Todo from './components/todo';
+import * as Component from './components';
 
 function App() {
   return (
       <>
-        < Todo />
+        < Component.Todo />
       </>
   );
 }
