@@ -3,10 +3,6 @@
   "version": "2.0.0",
   "private": true,
   "homepage": "https://nottacoz.github.io/startpage2",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/NotTacoz/startpage2.git"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
