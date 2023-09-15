@@ -13,7 +13,7 @@ jobs:
     if: ${{ github.repository == 'NotTacoz/startpage2' }}
     strategy:
       matrix:
-        os: [windows-latest, macos-latest, ubuntu-latest]
+        os: [macos-latest, ubuntu-latest]
     runs-on: ${{ matrix.os }}
     permissions:
       contents: write
