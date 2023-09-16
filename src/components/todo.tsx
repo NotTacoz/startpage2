@@ -22,7 +22,7 @@ export default function Todo() {
         if (newItem === "") {
             return;
         }
-
+        
         console.log(newItem)
         setItems((currentTodos: any) => {
             return ([...currentTodos, { id: crypto.randomUUID(), title: newItem, completed: false },
@@ -53,8 +53,8 @@ export default function Todo() {
     return (<>
         <form onSubmit={submitNewItem} className="todo">
             <div className="form-row">
-                <label>New Item:</label>< br />
-                <input value={newItem} className="todo-input" onChange={e => { setNewItem(e.target.value) }} type="text" placeholder="type what needs to be done here!" />< br />
+                <label>New Item:</label>
+                <input value={newItem} className="todo-input" onChange={e => { setNewItem(e.target.value) }} type="text" placeholder="type what needs to be done here!" />
                 <button className="btn">Add</button>
             </div>
         </form>
