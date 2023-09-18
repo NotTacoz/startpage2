@@ -19,6 +19,8 @@ function App() {
       </div>)}
       <div className="main">
         < Component.Todo />
+        < Component.Timer />
+        < Component.Time />
       </div>
       <div className="footer">
         <button onClick={() => { toggleSidebar() }}>Collapse Settings</button>

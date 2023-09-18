@@ -1,6 +1,6 @@
 import "./../css/settings.css"
 
-export default function Todo() {
+export default function Settings() {
     return (<>
         settings
         
