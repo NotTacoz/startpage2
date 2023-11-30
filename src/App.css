@@ -16,32 +16,29 @@ body {
 
 .with-sidebar {
   grid-template-areas:
-    "menu header header header"
-    "menu main main right"
-    "menu main main right"
-    "menu footer footer footer";
+    "menu main"
+    "menu main"
+    "menu main"
+    "menu footer";
 }
 
 .without-sidebar {
   grid-template-areas:
-    "header header header header"
-    "main main main right"
-    "main main main right"
-    "footer footer footer footer";
-}
-
-.header {
-  grid-area: header;
-  margin-left: 1rem;
+    "main main main"
+    "main main main"
+    "main main main"
+    "footer footer footer";
 }
 
 .main {
   grid-area: main;
-  margin-left: 1rem;
+  margin: 1rem;
+  position: relative;
 }
 
 .menu {
   grid-area: menu;
+  margin: 1rem;
 }
 
 .right {
